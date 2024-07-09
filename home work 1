@@ -1,0 +1,25 @@
+print("arathi")
+x=15 #x is 15
+print(x)
+x,y,z="wednesday","thursday","friday"
+print(x,y,z)
+x=y=z="wednesday"
+print(x,y,z)
+a=2
+print(a)
+print(type(a))
+b=1.2
+print(b)
+print(type(b))
+c=5+3j
+print(c)
+print(type(c))
+x=float(a)
+print(x)
+print(type(x))
+y=int(b)
+print(y)
+print(type(y))
+z=complex(c)
+print(z)
+print(type(z))

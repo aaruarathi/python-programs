@@ -1,0 +1,25 @@
+a="okay bye"
+print(a)
+print(len(a))
+print(type(a))
+print(a[5])
+print(a[2:7])
+print(a[-5:-2])
+print("bye" in a)
+print("is"in a)
+print(a.upper())
+print(a.lower())
+b="  thank ,you"
+print(b)
+print(b.strip())
+print(b.replace("k","g"))
+print(b.split(","))
+print(a+b)
+c=5
+print(c)
+#print(a=c)
+z=f"okay bye{c}"
+print(z)
+print(z.count("y"))
+print(5>7)
+print(5<7)

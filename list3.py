@@ -1,0 +1,41 @@
+a=[9,2,6,4,3,6]
+print(a)
+print(type(a))
+print(len(a))
+print(a[4])
+print(a[-1])
+print(a[2:5])
+print(a[-5:-3])
+print(2 in a)
+print(2 not in a)
+print(1 in a)
+print(1 not in a)
+a.append(1)
+print(a)
+a.insert(3,5)
+print(a)
+a.remove(6)
+print(a)
+a.pop()
+print(a)
+del a [3]
+print(a)
+a.clear()
+print(a)
+b=[10,20,30,]
+print(b)
+for i in b:
+    print(i)
+b.sort()
+print(b)
+b.sort(reverse=True)
+print(b)
+e=[15,25,35]
+print(e)
+c=e.copy()
+print(c)
+f=b+e
+print(f)
+for i in e:
+    print(e)
+print(b.count(10))
